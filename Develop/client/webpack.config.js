@@ -19,7 +19,7 @@ module.exports = () => {
     },
     plugins: [ new HtmlWebpackPlugin({
       template: './index.html',
-      title: 'Webpack Plugin'
+      title: 'J.A.T.E'
     }),
 
     new InjectManifest({
