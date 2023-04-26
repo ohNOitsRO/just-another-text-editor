@@ -12,7 +12,6 @@ const initdb = async () =>
     },
   });
 
-
 export const putDb = async (content) => {
   console.log('PUT request to update the jate database');
   const jateDb = await openDB('jate', 1);
@@ -23,7 +22,6 @@ export const putDb = async (content) => {
   console.log('Data saved to the J.A.T.E database', res);
 
 };
-
 
 export const getDb = async () => {
   console.log('GET from the J.A.T.E database');
