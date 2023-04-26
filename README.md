@@ -14,9 +14,9 @@
 ## Installation
 
 Install the node packages with "npm i" within the application directory.  
-This will install all the necessary Webpack, Babel, and React libraries.  
+This will install all the necessary Webpack and Babel libraries.  
 
-Run "npm start" to automatically launch and open the   
+Run "npm start" to automatically launch and open the 
 
 ## Usage
 
