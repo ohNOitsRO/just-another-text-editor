@@ -24,6 +24,10 @@ Just hit the Install button on the top left of the deployed application if you w
 
 Store notes whether you are online or offline with persistent data.
 
+### Link to deployed application
+
+https://jate-rd.herokuapp.com/
+
 ## Credits
 
 Node.js for its CLI capabilities.  
