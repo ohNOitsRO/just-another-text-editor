@@ -10,7 +10,7 @@ export default class {
     }
 
     this.editor = CodeMirror(document.querySelector('#main'), {
-      value: '',
+      value: header,
       mode: 'javascript',
       theme: 'monokai',
       lineNumbers: true,
@@ -23,6 +23,7 @@ export default class {
     getDb().then((data) => {
       console.info('Loaded data from IndexedDB, injecting into editor');
       this.editor.setValue(data || localData || header);
+      console.log(header, "HEADER ITS HERE");
     });
 
     this.editor.on('change', () => {
